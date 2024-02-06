@@ -75,8 +75,8 @@ body {
     flex-wrap: wrap;
     position: absolute;
     bottom: 20px;
-    left: 4px;
     color: white;
+    font-weight: 700;
     gap: 4px;
 }
 
@@ -88,6 +88,15 @@ body {
 .sustainability__badge {
     background-color: #008000;
     padding: 4px;
+}
+
+.fav__heart {
+    position: absolute;
+    font-size: 40px;
+    background-color: white;
+    padding: 4px 8px;
+    top: 20px;
+    right: 0px;
 }
 
 
