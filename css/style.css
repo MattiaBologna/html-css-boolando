@@ -106,6 +106,7 @@ body {
 
 .card__header {
     position: relative;
+    margin-bottom: 4px;
 }
 
 .badges {
@@ -215,7 +216,9 @@ body {
     text-align: right;
 }
 
-
+.bold-text {
+    font-weight: 700;
+}
 
 
 
