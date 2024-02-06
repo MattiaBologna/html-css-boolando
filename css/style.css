@@ -66,6 +66,30 @@ body {
     display: block;
 }
 
+.card__header {
+    position: relative;
+}
+
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 20px;
+    left: 4px;
+    color: white;
+    gap: 4px;
+}
+
+.discount__badge {
+    background-color: red;
+    padding: 4px;
+}
+
+.sustainability__badge {
+    background-color: #008000;
+    padding: 4px;
+}
+
 
 
 /* Debug */
