@@ -21,6 +21,10 @@ ol {
 	list-style: none;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Layout */
 
 .container {
@@ -43,12 +47,24 @@ ol {
 
 /* Style */
 
+
+/* HEADER */
 .page__header {
     background-color: #FF6900;
     color: white;
     padding: 32px;
+    margin-bottom: 40px;
 }
 
+/* CONTENT */
+
+.card {
+    padding: 4px;
+}
+
+.card__header > img {
+    display: block;
+}
 
 
 
